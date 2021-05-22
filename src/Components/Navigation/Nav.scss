@@ -1,0 +1,26 @@
+.navbar {
+  margin: 1.8rem 2rem;
+  display: inline-block;
+
+  .navbarbrand {
+    font-size: 2.5rem;
+  }
+
+  .nav-item {
+    float: right;
+    margin-right: 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+
+    &:hover {
+      // background-color: lighten($color: #072540, $amount: 3);
+      font-weight: bold;
+      color: white;
+      font-size: 1.1rem;
+    }
+  }
+}
+
+.textWhite {
+  color: whitesmoke;
+}
