@@ -1,26 +1,59 @@
-.navbar {
-  margin: 1.8rem 2rem;
-  display: inline-block;
+@import "../../Sass/mixins";
 
-  .navbarbrand {
-    font-size: 2.5rem;
-  }
+nav.navbar {
+  padding-top: 1.8rem;
+  width: 100%;
+  height: 60px;
 
-  .nav-item {
-    float: right;
-    margin-right: 2rem;
-    font-size: 1rem;
-    text-decoration: none;
+  ul {
+    display: flex;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    height: 100%;
+    align-items: center;
 
-    &:hover {
-      // background-color: lighten($color: #072540, $amount: 3);
-      font-weight: bold;
-      color: white;
-      font-size: 1.1rem;
+    li {
+      list-style-type: none;
+      padding: 10px 20px;
+
+      .nav-item {
+        font-size: 1rem;
+        text-decoration: none;
+        letter-spacing: 2px;
+
+        &:hover {
+          color: #ff8ae2;
+        }
+      }
     }
   }
 }
 
 .textWhite {
-  color: whitesmoke;
+  color: #93c2db;
+}
+
+@media screen and (max-width: 400px) {
+  nav.navbar {
+    ul {
+      height: 100%;
+
+      @include grid(3, 2%);
+      li {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+
+        .nav-item {
+          flex-direction: row;
+          justify-content: space-between;
+          margin-left: 20px;
+          &:hover {
+            color: #ff8ae2;
+          }
+        }
+      }
+    }
+  }
 }

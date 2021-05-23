@@ -7,26 +7,13 @@ import'./Nav.scss';
 const NavBar = () => {
     return(
         <Fragment>
-            {/* <Navbar className={classes.navbar} expand="md">
-                <Navbar.Brand className={ classes.textWhite }>
-                    Danish Mehmuda
-                </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ml-auto">
-                        <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item> 
-                        <Nav.Item><Nav.Link href="/about">About</Nav.Link></Nav.Item>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar> */}
-            <div className="navbar">
-                <div className="navbarbrand textWhite">Danish Mehmuda</div>
-                <div className="nav">
-                    <Link className="nav-item textWhite" to="/">Home</Link>
-                    <Link className="nav-item textWhite" to="/about">About</Link>
-                    <Link className="nav-item textWhite" to="/project">Project</Link>
-                </div>
-            </div>
+            <nav className="navbar">
+                <ul>
+                    <li><Link className="nav-item textWhite" to="/">Home</Link></li>
+                    <li><Link className="nav-item textWhite" to="/about">About</Link></li>
+                    <li><Link className="nav-item textWhite" to="/project">Project</Link></li>
+                </ul>
+            </nav>
         </Fragment>
     );
 };
