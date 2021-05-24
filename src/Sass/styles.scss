@@ -1,6 +1,7 @@
 $blue: #93c2db;
 $pink: #ff8ae2;
 $darkPink: #9c4668;
+$lightBlue: #183d5d;
 
 // Text Colors
 .textBlue {
@@ -17,4 +18,9 @@ $darkPink: #9c4668;
 
 .textWhite {
   color: White;
+}
+
+// Alignment Styles
+.centered {
+  text-align: center;
 }
