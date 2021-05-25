@@ -4,6 +4,7 @@ import Navbar from './Components/Navigation/Nav';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Project from './Components/Project/Project';
+import Footer from './Components/Footer/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/project"><Project /></Route>
         </Switch>
       </div>
+      <Footer />
     </Router>
   );
 }

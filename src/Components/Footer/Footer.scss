@@ -1,0 +1,21 @@
+@import "../../Sass/styles.scss";
+
+footer {
+  background-color: $lightBlue;
+  padding: 2rem;
+  bottom: 0;
+  width: 100%;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+
+  p {
+    font-size: 2rem;
+    margin-bottom: -10px;
+  }
+
+  img {
+    margin: 15px;
+    height: 30px;
+    width: 30px;
+  }
+}
