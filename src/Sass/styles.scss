@@ -2,6 +2,17 @@ $blue: #93c2db;
 $pink: #ff8ae2;
 $darkPink: #9c4668;
 $lightBlue: #183d5d;
+$darkBlue: #010e28;
+
+// Container
+.container {
+  margin: 8rem auto 8rem 8rem;
+
+  h2 {
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+  }
+}
 
 // Text Colors
 .textBlue {

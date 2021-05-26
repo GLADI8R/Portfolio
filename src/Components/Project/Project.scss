@@ -1,0 +1,56 @@
+@import "../../Sass/styles.scss";
+@import "../../Sass/mixins.scss";
+
+//Project Section styling
+
+#proj {
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    a {
+      text-decoration: none;
+    }
+
+    div.card {
+      background-color: $lightBlue;
+      margin: 30px;
+      padding: 20px;
+      width: 300px;
+      min-height: 280px;
+      box-shadow: 2px 9px 15px 1px rgba(0, 0, 0, 0.59);
+      -webkit-box-shadow: 2px 9px 15px 1px rgba(0, 0, 0, 0.59);
+      -moz-box-shadow: 2px 9px 15px 1px rgba(0, 0, 0, 0.59);
+
+      &:hover {
+        box-shadow: -1px 17px 17px 3px rgba(0, 0, 0, 0.61);
+        -webkit-box-shadow: -1px 17px 17px 3px rgba(0, 0, 0, 0.61);
+        -moz-box-shadow: -1px 17px 17px 3px rgba(0, 0, 0, 0.61);
+        transition: 0.2s;
+      }
+
+      h3 {
+        font-size: 2.4rem;
+      }
+
+      p {
+        margin-top: 30px;
+        font-size: 1rem;
+      }
+
+      span {
+        font-size: 0.8rem;
+        background-color: $darkBlue;
+        color: $blue;
+        border-radius: 4px;
+        padding: 5px;
+        margin: 5px;
+      }
+    }
+  }
+}
+
+.mtop-5 {
+  margin-top: -5rem;
+}
