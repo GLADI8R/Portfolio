@@ -1,3 +1,5 @@
+@import "../../Sass/styles.scss";
+
 // About Page Styling
 .mtop-4 {
   margin-top: -4rem;
@@ -5,17 +7,28 @@
 
 .row {
   display: flex;
-  flex-flow: column wrap;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .column {
+  display: flex;
+  flex-direction: column;
+
+  .col1 {
+    flex: 1 0 100%;
+  }
+
+  .col2 {
+    flex-grow: 2 0 100%;
+  }
+
   img {
     border-radius: 50%;
     height: 200px;
     width: 200px;
+    margin-left: 22px;
     box-shadow: 2px 9px 15px 1px rgba(0, 0, 0, 0.59);
     -webkit-box-shadow: 2px 9px 15px 1px rgba(0, 0, 0, 0.59);
     -moz-box-shadow: 2px 9px 15px 1px rgba(0, 0, 0, 0.59);
@@ -27,10 +40,34 @@
   padding: 30px;
   letter-spacing: 1.1px;
   text-align: left;
+  margin-left: 30px;
 
   p {
-    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
   }
+  a {
+    margin-top: 0.8rem;
+    text-decoration: none;
+
+    span {
+      background-color: $blue;
+      color: $darkBlue;
+      font-weight: bold;
+      padding: 8px;
+      border-radius: 4px;
+      box-shadow: 2px 9px 15px 1px rgba(0, 0, 0, 0.59);
+      -webkit-box-shadow: 2px 9px 15px 1px rgba(0, 0, 0, 0.59);
+      -moz-box-shadow: 2px 9px 15px 1px rgba(0, 0, 0, 0.59);
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.right {
+  text-align: left;
 }
 
 .caption {
