@@ -1,0 +1,41 @@
+// About Page Styling
+.mtop-4 {
+  margin-top: -4rem;
+}
+
+.row {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-around;
+}
+
+.column {
+  img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    box-shadow: 2px 9px 15px 1px rgba(0, 0, 0, 0.59);
+    -webkit-box-shadow: 2px 9px 15px 1px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: 2px 9px 15px 1px rgba(0, 0, 0, 0.59);
+  }
+}
+
+.about {
+  font-size: 1.2rem;
+  padding: 30px;
+  letter-spacing: 1.1px;
+  text-align: left;
+
+  p {
+    margin-top: 0.8rem;
+  }
+}
+
+.caption {
+  display: block;
+  font-size: 20px;
+  letter-spacing: 1.3px;
+  margin-top: 5px;
+}
