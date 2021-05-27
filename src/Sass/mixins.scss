@@ -9,3 +9,21 @@
     margin-right: 0;
   }
 }
+
+@mixin large {
+  @media (min-width: 992px) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media (min-width: 768px) and (max-width: 991px) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media (max-width: 767px) {
+    @content;
+  }
+}

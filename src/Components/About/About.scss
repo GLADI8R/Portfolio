@@ -10,6 +10,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  align-items: center;
 }
 
 .column {
@@ -40,7 +41,6 @@
   padding: 30px;
   letter-spacing: 1.1px;
   text-align: left;
-  margin-left: 30px;
 
   p {
     margin-bottom: 0.8rem;
