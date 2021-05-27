@@ -1,3 +1,5 @@
+@import "../../Sass/mixins.scss";
+
 // Styling Skills card
 
 #tools {
@@ -18,6 +20,15 @@
         &:hover {
           transform: scale(1.1);
         }
+
+        @include small {
+          width: 65px;
+          height: 65px;
+        }
+      }
+
+      @include small {
+        margin: 13px;
       }
     }
   }

@@ -1,4 +1,4 @@
-@import "./mixins.scss";
+@import "mixins";
 
 $blue: #93c2db;
 $pink: #ff8ae2;
@@ -13,6 +13,10 @@ $darkBlue: #010e28;
   h2 {
     font-size: 3.5rem;
     margin-bottom: 50px;
+
+    @include small {
+      font-size: 2.8rem;
+    }
   }
 }
 
