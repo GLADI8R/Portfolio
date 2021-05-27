@@ -1,16 +1,18 @@
 @import "../../Sass/styles.scss";
+@import "../../Sass/mixins.scss";
 
 footer {
-  position: absolute;
+  position: relative;
   margin-top: 50px;
   background-color: $lightBlue;
   padding: 1rem;
   width: 100%;
   left: 0;
-  margin-bottom: 0;
+  bottom: 0;
   display: block;
   border-top-left-radius: 80px;
   border-top-right-radius: 80px;
+  flex-shrink: 0;
 
   p {
     font-size: 2rem;
