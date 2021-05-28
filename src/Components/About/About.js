@@ -8,7 +8,7 @@ import resume from '../../Asset/Resume/Danish_Resume.pdf';
 const About = () => {
     return(
         <div className="container centered textWhite">
-            <h2 className="textPink mtop-4">About Me</h2>
+            <h2 className="textPink">About Me</h2>
             <div className="row">
                 <div className="column col1 centered right">
                     <img src={Danish} alt="profile"></img>

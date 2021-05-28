@@ -6,7 +6,7 @@ import './Project.scss'
 const Project = () => {
     return(
         <div className="container">
-            <h2 className="centered textPink mtop-5">Projects</h2>
+            <h2 className="centered textPink">Projects</h2>
             <div id="proj">
                 <section>
                     <ProjectCard 
