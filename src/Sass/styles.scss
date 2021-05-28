@@ -11,7 +11,8 @@ $darkBlue: #010e28;
   margin: 8rem 12rem 6rem 12rem;
 
   @include small {
-    margin: 8rem auto 6rem 0.6rem;
+    margin: 8rem 0 6rem 0.4rem;
+    overflow-x: hidden;
   }
 
   h2 {
