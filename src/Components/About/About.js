@@ -1,3 +1,5 @@
+import TimeLine from '../Timeline/Timeline';
+
 import './About.scss';
 import '../../Sass/styles.scss';
 import Danish from '../../Asset/images/Danish.jpg';
@@ -21,6 +23,7 @@ const About = () => {
                     </a>
                 </div>
             </div>
+            <TimeLine />
         </div>
     );
 };
