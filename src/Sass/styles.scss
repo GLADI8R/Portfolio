@@ -10,6 +10,10 @@ $darkBlue: #010e28;
 .container {
   margin: 8rem 12rem 6rem 12rem;
 
+  @include small {
+    margin: 8rem auto 6rem 0.6rem;
+  }
+
   h2 {
     font-size: 3.5rem;
     margin-bottom: 50px;
