@@ -10,8 +10,14 @@
   }
 }
 
+@mixin extraLarge {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
 @mixin large {
-  @media (min-width: 992px) {
+  @media (min-width: 992px) and (max-width: 1199px) {
     @content;
   }
 }

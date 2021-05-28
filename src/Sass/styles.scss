@@ -8,11 +8,23 @@ $darkBlue: #010e28;
 
 // Container
 .container {
-  margin: 8rem 12rem 6rem 12rem;
+  margin: 8rem auto 6rem 12rem;
+  align-items: center;
+  max-width: 1140px;
 
   @include small {
     margin: 8rem 0 6rem 0.4rem;
     overflow-x: hidden;
+    max-width: 100%;
+  }
+  @include medium {
+    margin: 8rem 0 6rem 1.6rem;
+    max-width: 720px;
+  }
+
+  @include large {
+    margin: 8rem auto 6rem 1rem;
+    max-width: 992px;
   }
 
   h2 {
