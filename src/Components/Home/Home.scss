@@ -1,8 +1,11 @@
 @import "../../Sass/mixins.scss";
+@import "../../Sass/styles.scss";
 
 //Home Page Styles
 .mainHead {
   font-size: 5.2rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
 
   @include small {
     font-size: 4rem;
@@ -14,6 +17,7 @@
 }
 
 .desc {
+  font-family: "Josefin Sans", sans-serif;
   font-size: 2rem;
   margin-bottom: 14rem;
 

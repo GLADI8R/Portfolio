@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 
-import '../../Sass/styles.scss';
+// import '../../Sass/styles.scss';
 import './Home.scss';
 import Skills from '../Skills/Skills';
 

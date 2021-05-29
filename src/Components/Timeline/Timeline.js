@@ -11,7 +11,7 @@ const TimeLine = () => {
     return (
         <Fragment>
             <h2 className="textPink">Timeline</h2>
-            <Timeline lineColor={"#93c2db"} className="textWhite" >
+            <Timeline lineColor={"#93c2db"} className="textWhite font" >
 
                 <TimelineItem 
                     dateInnerStyle={{ background: bgColor, color: textColor}}

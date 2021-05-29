@@ -1,12 +1,9 @@
-// import { Fragment } from "react";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './Components/Navigation/Nav';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Project from './Components/Project/Project';
 import Footer from './Components/Footer/Footer';
-
-// import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
