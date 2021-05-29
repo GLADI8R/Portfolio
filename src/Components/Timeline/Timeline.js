@@ -16,7 +16,7 @@ const TimeLine = () => {
                 <TimelineItem 
                     dateInnerStyle={{ background: bgColor, color: textColor}}
                     key="1"
-                    dateText="April 2020"
+                    dateText="April 2021"
                 >
                     <p className="textWhite">Learning React</p>
                 </TimelineItem>
