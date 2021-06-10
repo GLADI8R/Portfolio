@@ -3,7 +3,7 @@ import TimeLine from '../Timeline/Timeline';
 import './About.scss';
 import '../../Sass/styles.scss';
 import Danish from '../../Asset/images/Danish.jpg';
-import resume from '../../Asset/Resume/Danish_Resume.pdf';
+import resume from '../../Asset/Resume/Danish.pdf';
 
 const About = () => {
     return(
