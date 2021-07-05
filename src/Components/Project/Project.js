@@ -30,6 +30,13 @@ const Project = () => {
                         link="https://github.com/GLADI8R/JSMedium"
                         tags={["Express", "Mongodb", "Bcrypt", "Ejs"]}
                     />
+                    <ProjectCard 
+                        key="4"
+                        projHead="Spotify UI Clone"
+                        description="Clone of Spotify with flutter"
+                        link="https://github.com/GLADI8R/spotify_clone"
+                        tags={["Flutter", "Dart"]}
+                    />
                 </section>
             </div>
         </div>
