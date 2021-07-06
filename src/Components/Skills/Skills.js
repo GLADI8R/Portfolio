@@ -15,6 +15,8 @@ import express from '../../Asset/icons/express.png';
 import git from '../../Asset/icons/git.png';
 import mongo from '../../Asset/icons/mongo.png';
 import react from '../../Asset/icons/react.png';
+import flutter from '../../Asset/icons/flutter.svg';
+import dart from '../../Asset/icons/dart.svg';
 
 
 const Skills = () => {
@@ -33,6 +35,8 @@ const Skills = () => {
                 <SkillCard image={git} text="Git" />
                 <SkillCard image={mongo} text="MongoDB" />
                 <SkillCard image={react} text="React" />
+                <SkillCard image={flutter} text="Flutter" />
+                <SkillCard image={dart} text="Dart" />
             </section>
         </div>
     );
