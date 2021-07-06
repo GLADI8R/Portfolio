@@ -15,7 +15,16 @@ const TimeLine = () => {
 
                 <TimelineItem 
                     dateInnerStyle={{ background: bgColor, color: textColor}}
-                    key="1"
+                    key="10"
+                    dateText="June 2021"
+                >
+                    <p className="textWhite">Learning Flutter</p>
+                    <p className="textWhite">Made Spotify UI Clone</p>
+                </TimelineItem>
+
+                <TimelineItem 
+                    dateInnerStyle={{ background: bgColor, color: textColor}}
+                    key="9"
                     dateText="April 2021"
                 >
                     <p className="textWhite">Learning React</p>
@@ -23,7 +32,7 @@ const TimeLine = () => {
 
                 <TimelineItem 
                     dateInnerStyle={{ background: bgColor, color: textColor}}
-                    key="2"
+                    key="8"
                     dateText="March 2021"
                 >
                     <p className="textWhite">Made JS Medium</p>
@@ -31,7 +40,7 @@ const TimeLine = () => {
 
                 <TimelineItem 
                     dateInnerStyle={{ background: bgColor, color: textColor}}
-                    key="3"
+                    key="7"
                     dateText="Feb 2021"
                 >
                     <p className="textWhite">Made To-Do List</p>
@@ -39,7 +48,7 @@ const TimeLine = () => {
 
                 <TimelineItem 
                     dateInnerStyle={{ background: bgColor, color: textColor}}
-                    key="4"
+                    key="6"
                     dateText="Dec 2020"
                 >
                     <p className="textWhite">Made Tic Tac Toe Game</p>
@@ -56,7 +65,7 @@ const TimeLine = () => {
 
                 <TimelineItem 
                     dateInnerStyle={{ background: bgColor, color: textColor}}
-                    key="6"
+                    key="4"
                     dateText="May 2020"
                 >
                     <p className="textWhite">Competitve Programming in C++</p>
@@ -64,7 +73,7 @@ const TimeLine = () => {
 
                 <TimelineItem 
                     dateInnerStyle={{ background: bgColor, color: textColor}}
-                    key="7"
+                    key="3"
                     dateText="Aug 2019 - Present"
                 >
                     <p className="textPink">Sardar Vallabhbhai National Institute of Technology, Surat</p>
@@ -73,7 +82,7 @@ const TimeLine = () => {
 
                 <TimelineItem 
                     dateInnerStyle={{ background: bgColor, color: textColor}}
-                    key="8"
+                    key="2"
                     dateText="Aug 2005 - May 2019"
                 >
                     <p className="textPink">St. Paul's Senior Secondary School</p>
@@ -84,7 +93,7 @@ const TimeLine = () => {
 
                 <TimelineItem 
                     dateInnerStyle={{ background: bgColor, color: textColor}}
-                    key="9"
+                    key="1"
                     dateText="14 Billion Years Ago"
                 >
                     <p className="textWhite">Our whole universe was in a hot dense state<br/>
