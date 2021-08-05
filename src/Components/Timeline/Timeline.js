@@ -15,6 +15,15 @@ const TimeLine = () => {
 
                 <TimelineItem 
                     dateInnerStyle={{ background: bgColor, color: textColor}}
+                    key="11"
+                    dateText="August 2021"
+                >
+                    <p className="textWhite">Virtual Experience Program Participant</p>
+                    <p className="textWhite sub">Participated in the open access JPMorgan Chase & Co. Virtual Experience Program with Forage</p>
+                </TimelineItem>
+
+                <TimelineItem 
+                    dateInnerStyle={{ background: bgColor, color: textColor}}
                     key="10"
                     dateText="June 2021"
                 >
@@ -77,7 +86,7 @@ const TimeLine = () => {
                     dateText="Aug 2019 - Present"
                 >
                     <p className="textPink">Sardar Vallabhbhai National Institute of Technology, Surat</p>
-                    <p className="textWhite">CGPA: 8.46/10.0</p>
+                    <p className="textWhite sub">CGPA: 8.31/10.0</p>
                 </TimelineItem>
 
                 <TimelineItem 
@@ -86,9 +95,9 @@ const TimeLine = () => {
                     dateText="Aug 2005 - May 2019"
                 >
                     <p className="textPink">St. Paul's Senior Secondary School</p>
-                    <p className="textWhite">High School Diploma</p>
-                    <p className="textWhite"> CBSE Class 10, 9.6/10.0</p>
-                    <p className="textWhite">Class 12 Non-Medical Sciences, 88.8/100</p>
+                    <p className="textWhite sub">High School Diploma</p>
+                    <p className="textWhite sub"> CBSE Class 10, 9.6/10.0</p>
+                    <p className="textWhite sub">Class 12 Non-Medical Sciences, 88.8/100</p>
                 </TimelineItem>
 
                 <TimelineItem 
