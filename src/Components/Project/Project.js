@@ -42,7 +42,7 @@ const Project = () => {
                         projHead="Expense Tracker"
                         description="Full Stack Expense Tracker with React Hooks, Context API, MongoDB to store transaction history"
                         link="https://github.com/GLADI8R/Expense-Tracker"
-                        tags={["MongoDB", "Express", "React", "NodeJS", "Context API"]}
+                        tags={["MongoDB", "Express", "React", "NodeJS"]}
                     />
                 </section>
             </div>
