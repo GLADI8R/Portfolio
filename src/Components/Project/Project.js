@@ -37,6 +37,13 @@ const Project = () => {
                         link="https://github.com/GLADI8R/spotify_clone"
                         tags={["Flutter", "Dart"]}
                     />
+                    <ProjectCard 
+                        key="5"
+                        projHead="Expense Tracker"
+                        description="Full Stack Expense Tracker with React Hooks, Context API, MongoDB to store transaction history"
+                        link="https://github.com/GLADI8R/Expense-Tracker"
+                        tags={["MongoDB", "Express", "React", "NodeJS", "Context API"]}
+                    />
                 </section>
             </div>
         </div>
