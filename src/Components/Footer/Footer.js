@@ -7,7 +7,7 @@ import gmail from '../../Asset/icons/gmail.svg';
 const Footer = () => {
     return(
         <footer className="textWhite centered">
-            <p>Say Hello</p>
+            <p>Say Hello!</p>
             <br />
             <a href="https://github.com/GLADI8R"><img src={github} alt="icon"></img></a>
             <a href="https://www.linkedin.com/in/danish-ahmed-mehmuda-34b5651b2/"><img src={linkedin} alt="icon"></img></a>
