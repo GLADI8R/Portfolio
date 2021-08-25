@@ -1,8 +1,8 @@
 import '../../Sass/styles.scss';
 import './Footer.scss';
-import github from '../../Asset/icons/Github.svg';
+import github from '../../Asset/icons/github.svg';
 import linkedin from '../../Asset/icons/linkedin.svg';
-import gmail from '../../Asset/icons/gmail.svg';
+import gmail from '../../Asset/icons/mail.svg';
 
 const Footer = () => {
     return(
