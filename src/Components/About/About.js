@@ -3,7 +3,6 @@ import TimeLine from '../Timeline/Timeline';
 import './About.scss';
 import '../../Sass/styles.scss';
 import Danish from '../../Asset/images/Danish.jpg';
-import resume from '../../Asset/Resume/Danish.pdf';
 
 const About = () => {
     return(
@@ -18,9 +17,9 @@ const About = () => {
                     <p>I am Electronics and Communication Engineering Undergraduate</p>
                     <p>I have good understanding of Data Structures and Algorithms</p>
                     <p>I am passionate about programming and have good skills on Web Development</p>
-                    <a href={resume} download>
+                    {/* <a href={resume} download>
                         <span>My Resume</span>
-                    </a>
+                    </a> */}
                 </div>
             </div>
             <TimeLine />
