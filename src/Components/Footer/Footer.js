@@ -1,6 +1,6 @@
 import '../../Sass/styles.scss';
 import './Footer.scss';
-import github from '../../Asset/icons/github.svg';
+import github from '../../Asset/icons/Github.svg';
 import linkedin from '../../Asset/icons/linkedin.svg';
 import gmail from '../../Asset/icons/mail.svg';
 
