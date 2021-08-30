@@ -2,7 +2,12 @@
 @import "../../Sass/styles.scss";
 
 //Home Page Styles
+// .container {
+//   margin-top: 2rem;
+// }
+
 .mainHead {
+  margin-top: auto;
   font-size: 5.2rem;
   font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
@@ -24,5 +29,13 @@
   @include small {
     font-size: 1.4rem;
     margin-bottom: 10rem;
+  }
+}
+
+.particles {
+  position: absolute !important;
+  transform: translateY(-2.3rem);
+  @include small {
+    display: none;
   }
 }
