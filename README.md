@@ -1,1 +1,7 @@
-# **Personal Portfolio Website Using Create React App**
+# **Portfolio Website**
+
+## Technologies Used:
+
+- React
+- Sass
+- Vercel App
