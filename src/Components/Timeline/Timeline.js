@@ -100,6 +100,20 @@ const TimeLine = () => {
                     <p className="textWhite sub">Class 12 Non-Medical Sciences, 88.8/100</p>
                 </TimelineItem>
 
+                <TimelineItem 
+                    dateInnerStyle={{ background: bgColor, color: textColor}}
+                    key="1"
+                    dateText="14 Billion Years Ago..."
+                >
+                    <p className="textWhite sub"> Our whole universe was in a hot, dense state<br/>
+                        Then nearly fourteen billion years ago expansion started, wait <br/>
+                        The earth began to cool, the autotrophs began to drool<br/>
+                        Neanderthals developed tools<br/>
+                        We built a wall (we built the pyramids)<br/>
+                        Math, science, history, unraveling the mysteries<br/>
+                        That all started with the big bang! </p>
+                </TimelineItem>
+
             </Timeline>
         </Fragment>
     );
