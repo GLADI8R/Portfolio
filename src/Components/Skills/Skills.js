@@ -17,6 +17,7 @@ import mongo from '../../Asset/icons/mongo.png';
 import react from '../../Asset/icons/react.png';
 import flutter from '../../Asset/icons/flutter.svg';
 import dart from '../../Asset/icons/dart.svg';
+import illustrator from '../../Asset/icons/illustrator.svg';
 
 
 const Skills = () => {
@@ -37,6 +38,7 @@ const Skills = () => {
                 <SkillCard image={react} text="React" />
                 <SkillCard image={flutter} text="Flutter" />
                 <SkillCard image={dart} text="Dart" />
+                <SkillCard image={illustrator} text="Illustrator" />
             </section>
         </div>
     );
