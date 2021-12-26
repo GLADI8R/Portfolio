@@ -51,6 +51,13 @@ const Project = () => {
                         link="https://github.com/GLADI8R/WEATHERLY"
                         tags={["HTML", "JavaScript", "API"]}
                     />
+                    <ProjectCard
+                        key="7"
+                        projHead="Memorize"
+                        description="A number memorizing game made using flutter."
+                        link="https://github.com/DhrupamP/Memorize"
+                        tags={["Flutter", "Dart"]}
+                    />
                 </section>
             </div>
         </div>
