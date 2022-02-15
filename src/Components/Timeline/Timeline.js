@@ -15,77 +15,10 @@ const TimeLine = () => {
 
                 <TimelineItem
                     dateInnerStyle={{ background: bgColor, color: textColor }}
-                    key="12"
-                    dateText="September 2021"
-                >
-                    <p className="textWhite">Competitive Programming and DSA</p>
-                </TimelineItem>
-
-                <TimelineItem
-                    dateInnerStyle={{ background: bgColor, color: textColor }}
-                    key="11"
-                    dateText="August 2021"
-                >
-                    <p className="textWhite">Virtual Experience Program Participant</p>
-                    <p className="textWhite sub">Participated in the open access JPMorgan Chase & Co. Virtual Experience Program with Forage</p>
-                </TimelineItem>
-
-                <TimelineItem
-                    dateInnerStyle={{ background: bgColor, color: textColor }}
-                    key="10"
-                    dateText="June 2021"
-                >
-                    <p className="textWhite">Learning Flutter</p>
-                    <p className="textWhite">Made Spotify UI Clone</p>
-                </TimelineItem>
-
-                <TimelineItem
-                    dateInnerStyle={{ background: bgColor, color: textColor }}
-                    key="9"
-                    dateText="April 2021"
-                >
-                    <p className="textWhite">Learning React</p>
-                </TimelineItem>
-
-                <TimelineItem
-                    dateInnerStyle={{ background: bgColor, color: textColor }}
-                    key="8"
-                    dateText="March 2021"
-                >
-                    <p className="textWhite">Made JS Medium</p>
-                </TimelineItem>
-
-                <TimelineItem
-                    dateInnerStyle={{ background: bgColor, color: textColor }}
-                    key="7"
-                    dateText="Feb 2021"
-                >
-                    <p className="textWhite">Made To-Do List</p>
-                </TimelineItem>
-
-                <TimelineItem
-                    dateInnerStyle={{ background: bgColor, color: textColor }}
-                    key="6"
-                    dateText="Dec 2020"
-                >
-                    <p className="textWhite">Made Tic Tac Toe Game</p>
-                    <p className="textWhite">Learn Nodejs</p>
-                </TimelineItem>
-
-                <TimelineItem
-                    dateInnerStyle={{ background: bgColor, color: textColor }}
-                    key="5"
-                    dateText="Sept 2020"
-                >
-                    <p className="textWhite">Learn HTML, CSS, JavaScript</p>
-                </TimelineItem>
-
-                <TimelineItem
-                    dateInnerStyle={{ background: bgColor, color: textColor }}
                     key="4"
-                    dateText="May 2020"
+                    dateText="May 2021 - Present"
                 >
-                    <p className="textWhite">Competitve Programming in C++</p>
+                    <p className="textPink">Designer @ ACM NIT Surat</p>
                 </TimelineItem>
 
                 <TimelineItem
@@ -94,7 +27,8 @@ const TimeLine = () => {
                     dateText="Aug 2019 - Present"
                 >
                     <p className="textPink">Sardar Vallabhbhai National Institute of Technology, Surat</p>
-                    <p className="textWhite sub">CGPA: 8.31/10.0</p>
+                    <p className="textWhite sub">Electronics and Communications Engineering</p>
+                    <p className="textWhite sub">CGPA: 8.21/10.0</p>
                 </TimelineItem>
 
                 <TimelineItem
