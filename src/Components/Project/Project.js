@@ -58,6 +58,13 @@ const Project = () => {
                         link="https://github.com/DhrupamP/Memorize"
                         tags={["Flutter", "Dart"]}
                     />
+                    <ProjectCard
+                        key="8"
+                        projHead="Movie Dataset Analysis"
+                        description="Analysis of a movie dataset using pandas and seaborn, python libraries"
+                        link="https://github.com/GLADI8R/Data_Analysis"
+                        tags={["Python", "Data Analysis", "Pandas"]}
+                    />
                 </section>
             </div>
         </div>
