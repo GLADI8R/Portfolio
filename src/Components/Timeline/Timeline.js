@@ -12,11 +12,18 @@ const TimeLine = () => {
         <Fragment>
             <h2 className="textPink">Timeline</h2>
             <Timeline lineColor={"#93c2db"} className="textWhite font" >
+                <TimelineItem
+                    dateInnerStyle={{ background: bgColor, color: textColor }}
+                    key="5"
+                    dateText="May 2022 - Present"
+                >
+                    <p className="textPink">EID Intern at GE Healthcare, India</p>
+                </TimelineItem>
 
                 <TimelineItem
                     dateInnerStyle={{ background: bgColor, color: textColor }}
                     key="4"
-                    dateText="May 2021 - Present"
+                    dateText="May 2021 - May 2022"
                 >
                     <p className="textPink">Designer @ ACM NIT Surat</p>
                 </TimelineItem>
@@ -38,7 +45,7 @@ const TimeLine = () => {
                 >
                     <p className="textPink">St. Paul's Senior Secondary School</p>
                     <p className="textWhite sub">High School Diploma</p>
-                    <p className="textWhite sub"> CBSE Class 10, 9.6/10.0</p>
+                    <p className="textWhite sub">CBSE Class 10, 9.6/10.0</p>
                     <p className="textWhite sub">Class 12 Non-Medical Sciences, 88.8/100</p>
                 </TimelineItem>
 
@@ -53,7 +60,8 @@ const TimeLine = () => {
                         Neanderthals developed tools<br />
                         We built a wall (we built the pyramids)<br />
                         Math, science, history, unraveling the mysteries<br />
-                        That all started with the big bang! </p>
+                        That all started with the big bang!
+                    </p>
                 </TimelineItem>
 
             </Timeline>
