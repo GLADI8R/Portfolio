@@ -65,6 +65,13 @@ const Project = () => {
                         link="https://github.com/GLADI8R/Data_Analysis"
                         tags={["Python", "Data Analysis", "Pandas"]}
                     />
+                    <ProjectCard
+                        key="9"
+                        projHead="Recommender System"
+                        description="Movie recommender system showing trending, top genre movies, and recommending new movies to users"
+                        link="https://github.com/GLADI8R/Recommender-System"
+                        tags={["Python", "Recommender-System"]}
+                    />
                 </section>
             </div>
         </div>
