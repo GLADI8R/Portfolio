@@ -72,6 +72,13 @@ const Project = () => {
                         link="https://github.com/GLADI8R/Recommender-System"
                         tags={["Python", "Recommender-System"]}
                     />
+                    <ProjectCard
+                        key="10"
+                        projHead="Anomaly Detection"
+                        description="Anomaly detection on credit card transaction dataset using IsolationForest, PCA and t-SNE"
+                        link="https://github.com/GLADI8R/AnomalyDetection"
+                        tags={["Python", "Unsupervised Learning"]}
+                    />
                 </section>
             </div>
         </div>
