@@ -18,7 +18,8 @@ import react from '../../Asset/icons/react.png';
 import flutter from '../../Asset/icons/flutter.svg';
 import dart from '../../Asset/icons/dart.svg';
 import illustrator from '../../Asset/icons/illustrator.svg';
-
+import docker from '../../Asset/icons/docker.svg';
+import kubernetes from '../../Asset/icons/kubernetes.svg';
 
 const Skills = () => {
     return(
@@ -39,6 +40,8 @@ const Skills = () => {
                 <SkillCard image={flutter} text="Flutter" />
                 <SkillCard image={dart} text="Dart" />
                 <SkillCard image={illustrator} text="Illustrator" />
+                <SkillCard image={docker} text="Docker" />
+                <SkillCard image={kubernetes} text="Kubernetes" />
             </section>
         </div>
     );
