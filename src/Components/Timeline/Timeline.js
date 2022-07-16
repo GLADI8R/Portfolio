@@ -15,7 +15,7 @@ const TimeLine = () => {
                 <TimelineItem
                     dateInnerStyle={{ background: bgColor, color: textColor }}
                     key="5"
-                    dateText="May 2022 - Present"
+                    dateText="May 2022 - July 2022"
                 >
                     <p className="textPink">EID Intern at GE Healthcare, India</p>
                 </TimelineItem>
