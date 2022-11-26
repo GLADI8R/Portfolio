@@ -9,6 +9,7 @@ import css from '../../Asset/icons/css.png';
 import bootstrap from '../../Asset/icons/bootstrap.svg';
 import sass from '../../Asset/icons/sass.png';
 import js from '../../Asset/icons/javascript.jpg';
+import ts from '../../Asset/icons/typescript.svg';
 import node from '../../Asset/icons/node.svg';
 import java from '../../Asset/icons/java.svg';
 import spring from '../../Asset/icons/spring.svg';
@@ -31,6 +32,7 @@ const Skills = () => {
                 <SkillCard image={cpp} text="C++" />
                 <SkillCard image={java} text="Java" />
                 <SkillCard image={js} text="JS" />
+                <SkillCard image={ts} text="TypeScript" />
                 <SkillCard image={react} text="React" />
                 <SkillCard image={spring} text="Spring Boot" />
                 <SkillCard image={node} text="NodeJs" />

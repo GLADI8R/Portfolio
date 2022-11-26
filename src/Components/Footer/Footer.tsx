@@ -1,3 +1,4 @@
+// import React from 'react';
 import '../../Sass/styles.scss';
 import './Footer.scss';
 import github from '../../Asset/icons/Github.svg';

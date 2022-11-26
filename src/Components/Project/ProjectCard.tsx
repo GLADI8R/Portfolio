@@ -2,7 +2,7 @@ import Tag from './Tag';
 
 import './Project.scss';
 
-const ProjectCard = (props) => {
+const ProjectCard = (props: {link: any, projHead: String, tags: any , description: String}) => {
     return(
         <a href={props.link}>
             <div className="card textWhite">

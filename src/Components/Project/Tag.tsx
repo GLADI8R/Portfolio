@@ -1,6 +1,6 @@
 import './Project.scss';
 
-const Tag = (props) => {
+const Tag = (props: {tags: [String]}) => {
     return(
         <p>
             {props.tags.map( tag => (

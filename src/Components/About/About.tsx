@@ -1,3 +1,4 @@
+// import React from 'react';
 import TimeLine from '../Timeline/Timeline';
 
 import './About.scss';
