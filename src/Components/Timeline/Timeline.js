@@ -13,6 +13,13 @@ const TimeLine = () => {
             <h2 className="textPink">Timeline</h2>
             <Timeline lineColor={"#93c2db"} className="textWhite font" >
                 <TimelineItem
+                    dateInnerStyle={{ background: bgColor, color: textColor}}
+                    key="6"
+                    dateText="Feb 2023 - Present"    
+                >
+                    <p className="textPink">Technology Intern at Dozee</p>
+                </TimelineItem>
+                <TimelineItem
                     dateInnerStyle={{ background: bgColor, color: textColor }}
                     key="5"
                     dateText="May 2022 - July 2022"

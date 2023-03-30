@@ -18,9 +18,6 @@ const About = () => {
                     <p>I am Electronics and Communication Engineering Undergraduate</p>
                     <p>I have good understanding of Data Structures and Algorithms</p>
                     <p>I am passionate about programming and have good skills on Web Development</p>
-                    {/* <a href={resume} download>
-                        <span>My Resume</span>
-                    </a> */}
                 </div>
             </div>
             <TimeLine />
