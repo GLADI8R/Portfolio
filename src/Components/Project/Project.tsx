@@ -33,7 +33,7 @@ const Project = () => {
                     <ProjectCard
                         key="4"
                         projHead="Spotify UI Clone"
-                        description="Clone of Spotify with flutter"
+                        description="Clone of Spotify with Flutter"
                         link="https://github.com/GLADI8R/spotify_clone"
                         tags={["Flutter", "Dart"]}
                     />
@@ -78,6 +78,20 @@ const Project = () => {
                         description="Anomaly detection on credit card transaction dataset using IsolationForest, PCA and t-SNE"
                         link="https://github.com/GLADI8R/AnomalyDetection"
                         tags={["Python", "Unsupervised Learning"]}
+                    />
+                    <ProjectCard
+                        key="11"
+                        projHead="Flight Delay Forecasting"
+                        description="Time-series analysis and forecasting the future delays"
+                        link="https://github.com/GLADI8R/FlightsDelayForecasting"
+                        tags={["Python", "Time-series", "ARIMA"]}
+                    />
+                    <ProjectCard
+                        key="12"
+                        projHead="Airline Ticket Reservation"
+                        description="Microservices based architecture for ticket reservation"
+                        link="https://github.com/GLADI8R/AirlineReservation"
+                        tags={["Spring Boot", "ReactJS", "MySQL"]}
                     />
                 </section>
             </div>
