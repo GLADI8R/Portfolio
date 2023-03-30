@@ -30,9 +30,9 @@ const TimeLine = () => {
                 <TimelineItem
                     dateInnerStyle={{ background: bgColor, color: textColor }}
                     key="4"
-                    dateText="May 2021 - May 2022"
+                    dateText="Sept 2020 - May 2022"
                 >
-                    <p className="textPink">Designer @ ACM NIT Surat</p>
+                    <p className="textPink">Core Committee Member @ ACM NIT Surat</p>
                 </TimelineItem>
 
                 <TimelineItem
